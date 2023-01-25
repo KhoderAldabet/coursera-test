@@ -1,0 +1,43 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: cursive;
+}
+h1{
+    margin: 5% 0 7% 0;
+    text-align: center;
+}
+
+p{
+    background-color: gray;
+    border: 1px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+ @media (min-width: 1200px) {
+    .col-lg-4{
+        float: left;
+        margin-left: 2.36em;
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-4{
+        float: left;
+    }
+    .one , .two {
+        width: 48%;
+        margin-left: 0.9em;
+    }
+    .three{
+        width: 97.5%;
+        margin-left: 0.86em;
+    }
+}
